@@ -6,9 +6,15 @@ go2h:"Security and quality by design",go2p:"Tests come first, checks cannot be s
 go3h:"Few people, clear decisions",go3p:"People keep the decisions that matter, at four defined points, instead of managing every step.",
 go4h:"Freedom to choose providers",go4p:"Each role can use a different AI provider and model, balancing quality, cost and the risk of depending on a single vendor. Cost is a controlled variable; no saving is promised.",
 go_note:"TO VALIDATE: purpose wording is a draft based on the process documents; Carlos to confirm.",
-explore_h:"Explore",nav_contact:"Contact",more:"Full detail",
-tz_purpose:"What Spec2Run is for.",tz_how:"The eleven steps, with checks and approvals.",tz_roles:"Five roles, kept apart.",tz_gains:"What we expect, stated as hypotheses.",tz_theory:"The software engineering ideas behind it.",tz_deep:"Lifecycle, providers, orchestration and safeguards.",tz_pilot:"The first real task.",tz_contact:"Talk to us.",
-nav_how:"How it works",nav_roles:"Roles",nav_gains:"Expected gains",nav_theory:"Foundations",nav_deep:"Deep dive",nav_pilot:"Pilot",
+explore_h:"Explore",nav_contact:"Contact",nav_adopt:"How to adopt",tz_adopt:"From first look to your first task.",more:"Full detail",
+tz_purpose:"What Spec2Run is for.",tz_how:"The eleven steps, with checks and approvals.",tz_roles:"Five roles, kept apart.",tz_gains:"What we expect, stated as hypotheses.",tz_theory:"The software engineering ideas behind it.",tz_deep:"Lifecycle, providers, orchestration and safeguards.",tz_contact:"Talk to us.",
+ad_h:"How to adopt it in your projects",ad_p:"Liked the process? Here is how to start.",
+ad_steps:[["Get the overview","Read this site: purpose, how it works, roles and safeguards."],["Check the prerequisites","See the list below and confirm your project fits."],["Ask for the full process","Send us an e-mail. We reply with the complete process documents."],["Prepare your environment","Follow the installation and operation guide that comes with it."],["Start with one small task","Run a single small slice end to end before scaling."]],
+ad_pre_h:"Prerequisites",ad_pre:["A repository on GitHub with Actions enabled and a protected main branch","One accountable person who approves at the four decision points","AI provider accounts, each with a spending cap","A software engineer to define the stack in the first project"],
+ad_get_h:"What you receive",ad_get:"The complete process documents, the installation and operation guide and the decision log.",
+ad_cta:"Request the full process",ad_mail_s:"Spec2Run AI: request for the full process",ad_mail_b:"Hello, I would like to receive the full Spec2Run AI process.%0D%0A%0D%0AName:%0D%0ACompany and role:%0D%0AType of project:",
+ad_note:"TO VALIDATE: what is sent, to whom, and under which terms (license or confidentiality) are Carlos's decisions.",
+nav_how:"How it works",nav_roles:"Roles",nav_gains:"Expected gains",nav_theory:"Foundations",nav_deep:"Deep dive",
 tag:"Version 1.1 · Specification-first delivery with AI agents",
 h1:"AI agents build and review. <em>Deterministic code governs.</em> People decide.",
 lead:"Spec2Run is a lightweight process in which AI agents specify, test, build and review software in small, traceable slices. Plain code, not an AI, controls the flow and stops it when a rule is broken.",
@@ -28,7 +34,7 @@ g1h:"Less dedicated headcount per demand",g1p:"A new demand would not need its o
 g2h:"Reusable stack",g2p:"A software engineer defines the stack once, in the first project. Later projects reuse it.",
 g3h:"Traceability by default",g3p:"Requirements, tests and code stay linked in every slice.",
 g4h:"Controlled spend",g4p:"A spending cap is defined for each AI provider key.",
-g_note:"HYPOTHESES: no figures are claimed. Real data will come from the pilot, with a source.",
+g_note:"HYPOTHESES: no figures are claimed. Real data will come from real use, with a source.",
 t_h:"Theoretical foundations",t_p:"Spec2Run combines established software engineering ideas.",
 t1:"<b>Test-driven development</b>: tests written first and proven to fail before code exists (Beck).",
 t2:"<b>Requirements traceability</b>: every test and change traces to a requirement.",
@@ -73,8 +79,7 @@ sens:[["Elevated level","No AI can classify data as ordinary to skip threat revi
 rem:"Some risks remain with people. That is why a person reads and approves the code before merge.",
 d4h:"Glossary",gloss:[["Specification","The written requirements and acceptance criteria of a task."],["RED","The tests are written first and must fail before the code exists."],["GREEN","All automated checks pass after the code is written."],["Diff","The set of changes in a proposal to the code."],["Mutation testing","Deliberately breaking code to confirm tests catch it."],["Decision record","A short note explaining a design choice and its alternatives."]],
 d_note:"TO VALIDATE: all detail pages follow Spec2Run Light 1.1; confirm what is public.",
-pi_h:"Pilot",pi_p:"The first real task, with sources.",pi_note:"TO VALIDATE: pilot status and what Carlos approves to publish. No data is shown yet.",
-c_h:"Get in touch",c_p:"Interested in the process or in a pilot?",c_note:"TO VALIDATE: contact e-mail (will move to the spec2run.com.br address).",
+c_h:"Get in touch",c_p:"Interested in the process or in adopting it?",c_note:"TO VALIDATE: contact e-mail (will move to the spec2run.com.br address).",
 foot:"© Spec2Run AI. Created by Carlos Yano. Prototype, content provisional."},
 pt:{
 slogan:"Da especificação à produção",nav_goal:"Objetivo",go_h:"Para que serve o Spec2Run",
@@ -84,9 +89,15 @@ go2h:"Segurança e qualidade desde o desenho",go2p:"Os testes vêm primeiro, as 
 go3h:"Poucas pessoas, decisões claras",go3p:"As pessoas ficam com as decisões que importam, em quatro pontos definidos, em vez de gerir cada etapa.",
 go4h:"Liberdade de escolher fornecedores",go4p:"Cada papel pode usar um fornecedor e um modelo de IA diferentes, equilibrando qualidade, custo e o risco de depender de um único fornecedor. O custo é uma variável controlada; nenhuma economia é prometida.",
 go_note:"VALIDAR: a redação do objetivo é um rascunho baseado nos documentos do processo; Carlos confirma.",
-explore_h:"Explore",nav_contact:"Contato",more:"Ver detalhe",
-tz_purpose:"Para que serve o Spec2Run.",tz_how:"As onze etapas, com verificações e aprovações.",tz_roles:"Cinco papéis, separados.",tz_gains:"O que esperamos, declarado como hipótese.",tz_theory:"As ideias de Engenharia de Software por trás.",tz_deep:"Ciclo, fornecedores, orquestração e salvaguardas.",tz_pilot:"A primeira tarefa real.",tz_contact:"Fale conosco.",
-nav_how:"Como funciona",nav_roles:"Papéis",nav_gains:"Ganhos esperados",nav_theory:"Fundamentos",nav_deep:"Aprofundamento",nav_pilot:"Piloto",
+explore_h:"Explore",nav_contact:"Contato",nav_adopt:"Como adotar",tz_adopt:"Da primeira leitura à sua primeira tarefa.",more:"Ver detalhe",
+tz_purpose:"Para que serve o Spec2Run.",tz_how:"As onze etapas, com verificações e aprovações.",tz_roles:"Cinco papéis, separados.",tz_gains:"O que esperamos, declarado como hipótese.",tz_theory:"As ideias de Engenharia de Software por trás.",tz_deep:"Ciclo, fornecedores, orquestração e salvaguardas.",tz_contact:"Fale conosco.",
+ad_h:"Como adotar em seus projetos",ad_p:"Gostou do processo? Veja como começar.",
+ad_steps:[["Veja a visão geral","Leia este site: objetivo, como funciona, papéis e salvaguardas."],["Confira os pré-requisitos","Veja a lista abaixo e confirme se o seu projeto se encaixa."],["Peça o processo completo","Envie um e-mail. Respondemos com os documentos completos do processo."],["Prepare o ambiente","Siga o guia de instalação e operação que acompanha o material."],["Comece por uma tarefa pequena","Rode uma única fatia pequena do início ao fim antes de ampliar."]],
+ad_pre_h:"Pré-requisitos",ad_pre:["Repositório no GitHub com Actions ativo e branch principal protegida","Uma pessoa responsável que aprova nos quatro pontos de decisão","Contas de fornecedores de IA, cada uma com teto de gasto","Um engenheiro de software para definir a stack no primeiro projeto"],
+ad_get_h:"O que você recebe",ad_get:"Os documentos completos do processo, o guia de instalação e operação e o registro de decisões.",
+ad_cta:"Pedir o processo completo",ad_mail_s:"Spec2Run AI: pedido do processo completo",ad_mail_b:"Olá, gostaria de receber o processo completo do Spec2Run AI.%0D%0A%0D%0ANome:%0D%0AEmpresa e cargo:%0D%0ATipo de projeto:",
+ad_note:"VALIDAR: o que é enviado, para quem e sob quais termos (licença ou confidencialidade) são decisões do Carlos.",
+nav_how:"Como funciona",nav_roles:"Papéis",nav_gains:"Ganhos esperados",nav_theory:"Fundamentos",nav_deep:"Aprofundamento",
 tag:"Versão 1.1 · Entrega orientada por especificação, com agentes de IA",
 h1:"Agentes de IA constroem e revisam. <em>Código determinístico governa.</em> Pessoas decidem.",
 lead:"Spec2Run é um processo leve em que agentes de IA especificam, testam, constroem e revisam software em fatias pequenas e rastreáveis. Código comum, e não uma IA, controla o fluxo e o interrompe quando uma regra é violada.",
@@ -106,7 +117,7 @@ g1h:"Menos pessoas dedicadas por demanda",g1p:"Uma nova demanda não precisaria 
 g2h:"Stack reaproveitável",g2p:"Um engenheiro de software define a stack uma vez, no primeiro projeto. Os próximos a reaproveitam.",
 g3h:"Rastreabilidade por padrão",g3p:"Requisitos, testes e código ficam ligados em cada fatia.",
 g4h:"Gasto controlado",g4p:"Há um teto de gasto definido para cada chave de fornecedor de IA.",
-g_note:"HIPÓTESES: nenhum número é afirmado. Dados reais virão do piloto, com fonte.",
+g_note:"HIPÓTESES: nenhum número é afirmado. Dados reais virão do uso real, com fonte.",
 t_h:"Fundamentação teórica",t_p:"O Spec2Run combina ideias consolidadas de Engenharia de Software.",
 t1:"<b>Desenvolvimento guiado por testes</b>: testes escritos primeiro e provados falhando antes de o código existir (Beck).",
 t2:"<b>Rastreabilidade de requisitos</b>: cada teste e mudança remete a um requisito.",
@@ -151,13 +162,12 @@ sens:[["Nível elevado","Nenhuma IA pode classificar o dado como comum para esca
 rem:"Alguns riscos continuam com as pessoas. Por isso uma pessoa lê e aprova o código antes do merge.",
 d4h:"Glossário",gloss:[["Especificação","Os requisitos e critérios de aceite escritos de uma tarefa."],["RED","Os testes são escritos primeiro e precisam falhar antes de o código existir."],["GREEN","Todas as verificações automáticas passam depois de o código ser escrito."],["Diff","O conjunto de mudanças de uma proposta de alteração do código."],["Teste de mutação","Quebrar o código de propósito para confirmar que os testes percebem."],["ADR","Nota curta que explica uma escolha de desenho e suas alternativas."]],
 d_note:"VALIDAR: as páginas de detalhe seguem o Spec2Run Light 1.1; confirmar o que é público.",
-pi_h:"Piloto",pi_p:"A primeira tarefa real, com fonte.",pi_note:"VALIDAR: status do piloto e o que Carlos aprovar publicar. Nenhum dado é mostrado ainda.",
-c_h:"Fale conosco",c_p:"Interesse no processo ou em um piloto?",c_note:"VALIDAR: e-mail de contato (passará ao endereço do spec2run.com.br).",
+c_h:"Fale conosco",c_p:"Interesse no processo ou em adotá-lo?",c_note:"VALIDAR: e-mail de contato (passará ao endereço do spec2run.com.br).",
 foot:"© Spec2Run AI. Criado por Carlos Yano. Protótipo, conteúdo provisório."}};
 let L="en",simSel=[0,1,2,3],tam=false;const $=id=>document.getElementById(id);
 const H=(id,h)=>{const e=$(id);if(e)e.innerHTML=h};
 try{const q=new URLSearchParams(location.search).get("lang");if(q==="pt"||q==="en")L=q;else{const v=localStorage.getItem("s2r_lang");if(v==="pt"||v==="en")L=v}}catch(e){}
-const PAGES=[["purpose","nav_goal","tz_purpose"],["how","nav_how","tz_how"],["roles","nav_roles","tz_roles"],["gains","nav_gains","tz_gains"],["foundations","nav_theory","tz_theory"],["deep","nav_deep","tz_deep"],["pilot","nav_pilot","tz_pilot"],["contact","nav_contact","tz_contact"]];
+const PAGES=[["purpose","nav_goal","tz_purpose"],["how","nav_how","tz_how"],["roles","nav_roles","tz_roles"],["gains","nav_gains","tz_gains"],["foundations","nav_theory","tz_theory"],["deep","nav_deep","tz_deep"],["adopt","nav_adopt","tz_adopt"],["contact","nav_contact","tz_contact"]];
 const DEEP=[["deep-lifecycle","d0h","d0p"],["deep-providers","d1h","d1p"],["deep-orchestration","d2h","d2p"],["deep-safeguards","d3h","d3p"],["deep-glossary","d4h",null]];
 const cur=document.body.dataset.page;
 function chrome(){const t=T[L];
@@ -176,6 +186,9 @@ const order=["Specifier","Architect","Test designer","Builder","Reviewer"];
 H("rolecards",t.rt.slice().sort((a,b)=>order.indexOf(a[0])-order.indexOf(b[0])).map(r=>`<div class="card"><h3>${r[0]}</h3><p>${r[1]}</p></div>`).join(""));
 H("explore",PAGES.filter(p=>p[0]!=="contact").map(p=>`<a class="card" href="${p[0]}.html"><h3>${t[p[1]]}</h3><p>${t[p[2]]}</p></a>`).join(""));
 H("deepcards",DEEP.map(p=>`<a class="card" href="${p[0]}.html"><h3>${t[p[1]]}</h3>${p[2]?`<p>${t[p[2]]}</p>`:""}</a>`).join(""));
+H("adsteps",t.ad_steps.map((r,i)=>`<div class="step"><b>${r[0]}</b><span>${r[1]}</span></div>`).join(""));
+H("adpre",t.ad_pre.map(x=>`<li>${x}</li>`).join(""));
+const mb=$("admail");if(mb)mb.href="mailto:carlosyano@yahoo.com.br?subject="+encodeURIComponent(t.ad_mail_s)+"&body="+t.ad_mail_b;
 H("lchead",t.lchead.map(x=>`<th>${x}</th>`).join(""));
 H("lcbody",t.lc.map((r,i)=>`<tr><td>${i+1}</td><td><b>${r[0]}</b></td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join(""));
 H("cmdbody",t.cmd.map(r=>`<tr><td><code>/s2r ${r[0]}</code></td><td>${r[1]}</td></tr>`).join(""));
