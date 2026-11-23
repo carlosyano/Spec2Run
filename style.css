@@ -14,7 +14,7 @@ nav a{color:var(--mut);text-decoration:none;font-size:14px}nav a:hover{color:var
 button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:8px;padding:6px 10px;cursor:pointer}
 .hero{padding:88px 0 64px;background:radial-gradient(900px 400px at 80% -10%,color-mix(in srgb,var(--acc) 22%,transparent),transparent),radial-gradient(700px 300px at 0% 0%,color-mix(in srgb,var(--acc2) 16%,transparent),transparent)}
 .tag{display:inline-block;font-size:13px;border:1px solid var(--line);border-radius:99px;padding:4px 12px;color:var(--mut);background:var(--card)}
-h1{font-size:clamp(28px,4.4vw,46px);line-height:1.05;letter-spacing:-.035em;margin:18px 0}
+h1{font-size:clamp(30px,5.4vw,56px);line-height:1.05;letter-spacing:-.035em;margin:18px 0}
 .lead{font-size:20px;color:var(--mut);max-width:700px}
 .cta{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
 .btn{display:inline-block;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:600;font-size:15px}
@@ -53,5 +53,6 @@ nav a.on{color:var(--fg);font-weight:700}
 .pagehead h1{font-size:clamp(30px,5vw,46px);margin:0 0 8px}
 a.card{display:block;text-decoration:none;color:inherit}a.card:hover{border-color:var(--acc)}
 a.card h3{color:var(--acc)}a.card h3:after{content:" →"}
+.ln{display:block}
 .more{display:inline-block;margin-top:20px;font-weight:600}
 main section:first-child{border-top:0}
