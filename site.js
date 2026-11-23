@@ -6,14 +6,19 @@ go2h:"Security and quality by design",go2p:"Tests come first, checks cannot be s
 go3h:"Few people, clear decisions",go3p:"People keep the decisions that matter, at four defined points, instead of managing every step.",
 go4h:"Freedom to choose providers",go4p:"Each role can use a different AI provider and model, balancing quality, cost and the risk of depending on a single vendor. Cost is a controlled variable; no saving is promised.",
 go_note:"TO VALIDATE: purpose wording is a draft based on the process documents; Carlos to confirm.",
-explore_h:"Explore",nav_contact:"Contact",nav_adopt:"How to adopt",tz_adopt:"From first look to your first task.",more:"Full detail",
-tz_purpose:"What Spec2Run is for.",tz_how:"The eleven steps, with checks and approvals.",tz_roles:"Five roles, kept apart.",tz_gains:"What we expect, stated as hypotheses.",tz_theory:"The software engineering ideas behind it.",tz_deep:"Lifecycle, providers, orchestration and safeguards.",tz_contact:"Talk to us.",
+explore_h:"Explore",nav_contact:"Contact",nav_author:"About the author",tz_author:"Who created Spec2Run AI.",nav_adopt:"How to adopt",tz_adopt:"From first look to your first task.",more:"Full detail",
+tz_purpose:"What Spec2Run is for.",tz_how:"The eleven steps, with checks and approvals.",tz_roles:"Five roles, kept apart.",tz_gains:"What we expect, stated as hypotheses.",tz_theory:"The software engineering ideas behind it.",tz_deep:"Lifecycle, providers, orchestration and safeguards.",
 ad_h:"How to adopt it in your projects",ad_p:"Liked the process? Here is how to start.",
 ad_steps:[["Get the overview","Read this site: purpose, how it works, roles and safeguards."],["Check the prerequisites","See the list below and confirm your project fits."],["Ask for the full process","Send us an e-mail. We reply with the complete process documents."],["Prepare your environment","Follow the installation and operation guide that comes with it."],["Start with one small task","Run a single small slice end to end before scaling."]],
 ad_pre_h:"Prerequisites",ad_pre:["A repository on GitHub with Actions enabled and a protected main branch","One accountable person who approves at the four decision points","AI provider accounts, each with a spending cap","A software engineer to define the stack in the first project"],
 ad_get_h:"What you receive",ad_get:"The complete process documents, the installation and operation guide and the decision log.",
 ad_cta:"Request the full process",ad_mail_s:"Spec2Run AI: request for the full process",ad_mail_b:"Hello, I would like to receive the full Spec2Run AI process.%0D%0A%0D%0AName:%0D%0ACompany and role:%0D%0AType of project:",
 ad_note:"TO VALIDATE: what is sent, to whom, and under which terms (license or confidentiality) are Carlos's decisions.",
+au_h:"About the author",au_role:"IT executive · Software engineering, mission-critical platforms, payments and governed AI adoption",
+au_sum:"IT executive with more than 25 years leading mission-critical platforms, mostly in payments. I led the technical delivery of Elo's new card authorizer: a COBOL legacy platform replaced by Java 21 on an active/active AWS and Azure architecture, with 100+ professionals, in 22 months, cutting transaction processing cost by 50%. I connect strategy, engineering and governance. Spec2Run AI is the process I created to bring that discipline to software built with AI.",
+au_hl_h:"Selected results",au_hl:[["Cartão Elo","Led the technical delivery of the New Elo Authorizer: 100+ professionals, 126 thousand hours, 22 months, within schedule and budget, with 50% lower transaction processing cost and 59% fewer incidents."],["ACI Worldwide","Led strategic projects in fraud prevention, authorization and switching for payments, with 100% availability of the services under management."],["GS1 Brasil","Led corporate IT and information security, and structured the governed adoption of AI tools, including Microsoft Copilot and Claude."]],
+au_ct_h:"Contact",au_mail:"E-mail",au_li:"LinkedIn",au_li_t:"linkedin.com/in/carlosyano",
+au_note:"TO VALIDATE: summary text and contact e-mail (will move to the spec2run.com.br address). Figures come from the LinkedIn profile.",
 nav_how:"How it works",nav_roles:"Roles",nav_gains:"Expected gains",nav_theory:"Foundations",nav_deep:"Deep dive",
 tag:"Version 1.1 · Specification-first delivery with AI agents",
 h1:"AI agents build and review. <em>Deterministic code governs.</em> People decide.",
@@ -89,14 +94,19 @@ go2h:"Segurança e qualidade desde o desenho",go2p:"Os testes vêm primeiro, as 
 go3h:"Poucas pessoas, decisões claras",go3p:"As pessoas ficam com as decisões que importam, em quatro pontos definidos, em vez de gerir cada etapa.",
 go4h:"Liberdade de escolher fornecedores",go4p:"Cada papel pode usar um fornecedor e um modelo de IA diferentes, equilibrando qualidade, custo e o risco de depender de um único fornecedor. O custo é uma variável controlada; nenhuma economia é prometida.",
 go_note:"VALIDAR: a redação do objetivo é um rascunho baseado nos documentos do processo; Carlos confirma.",
-explore_h:"Explore",nav_contact:"Contato",nav_adopt:"Como adotar",tz_adopt:"Da primeira leitura à sua primeira tarefa.",more:"Ver detalhe",
-tz_purpose:"Para que serve o Spec2Run.",tz_how:"As onze etapas, com verificações e aprovações.",tz_roles:"Cinco papéis, separados.",tz_gains:"O que esperamos, declarado como hipótese.",tz_theory:"As ideias de Engenharia de Software por trás.",tz_deep:"Ciclo, fornecedores, orquestração e salvaguardas.",tz_contact:"Fale conosco.",
+explore_h:"Explore",nav_contact:"Contato",nav_author:"Sobre o autor",tz_author:"Quem criou o Spec2Run AI.",nav_adopt:"Como adotar",tz_adopt:"Da primeira leitura à sua primeira tarefa.",more:"Ver detalhe",
+tz_purpose:"Para que serve o Spec2Run.",tz_how:"As onze etapas, com verificações e aprovações.",tz_roles:"Cinco papéis, separados.",tz_gains:"O que esperamos, declarado como hipótese.",tz_theory:"As ideias de Engenharia de Software por trás.",tz_deep:"Ciclo, fornecedores, orquestração e salvaguardas.",
 ad_h:"Como adotar em seus projetos",ad_p:"Gostou do processo? Veja como começar.",
 ad_steps:[["Veja a visão geral","Leia este site: objetivo, como funciona, papéis e salvaguardas."],["Confira os pré-requisitos","Veja a lista abaixo e confirme se o seu projeto se encaixa."],["Peça o processo completo","Envie um e-mail. Respondemos com os documentos completos do processo."],["Prepare o ambiente","Siga o guia de instalação e operação que acompanha o material."],["Comece por uma tarefa pequena","Rode uma única fatia pequena do início ao fim antes de ampliar."]],
 ad_pre_h:"Pré-requisitos",ad_pre:["Repositório no GitHub com Actions ativo e branch principal protegida","Uma pessoa responsável que aprova nos quatro pontos de decisão","Contas de fornecedores de IA, cada uma com teto de gasto","Um engenheiro de software para definir a stack no primeiro projeto"],
 ad_get_h:"O que você recebe",ad_get:"Os documentos completos do processo, o guia de instalação e operação e o registro de decisões.",
 ad_cta:"Pedir o processo completo",ad_mail_s:"Spec2Run AI: pedido do processo completo",ad_mail_b:"Olá, gostaria de receber o processo completo do Spec2Run AI.%0D%0A%0D%0ANome:%0D%0AEmpresa e cargo:%0D%0ATipo de projeto:",
 ad_note:"VALIDAR: o que é enviado, para quem e sob quais termos (licença ou confidencialidade) são decisões do Carlos.",
+au_h:"Sobre o autor",au_role:"Executivo de TI · Engenharia de software, plataformas de missão crítica, meios de pagamento e adoção governada de IA",
+au_sum:"Executivo de TI com mais de 25 anos liderando plataformas de missão crítica, principalmente em meios de pagamento. Liderei tecnicamente o novo autorizador de cartões da Elo: uma plataforma legada em COBOL substituída por Java 21 em arquitetura ativa/ativa na AWS e na Azure, com mais de 100 profissionais, em 22 meses, reduzindo em 50% o custo de processamento transacional. Conecto estratégia, engenharia e governança. O Spec2Run AI é o processo que criei para levar essa disciplina ao software construído com IA.",
+au_hl_h:"Resultados selecionados",au_hl:[["Cartão Elo","Liderei tecnicamente o Novo Autorizador Elo: mais de 100 profissionais, 126 mil horas, 22 meses, dentro do prazo e do orçamento, com 50% menos custo de processamento transacional e 59% menos incidentes."],["ACI Worldwide","Liderei projetos estratégicos de prevenção a fraudes, autorização e switching de pagamentos, com 100% de disponibilidade dos serviços sob gestão."],["GS1 Brasil","Liderei a TI corporativa e a segurança da informação e estruturei a adoção governada de ferramentas de IA, incluindo Microsoft Copilot e Claude."]],
+au_ct_h:"Contato",au_mail:"E-mail",au_li:"LinkedIn",au_li_t:"linkedin.com/in/carlosyano",
+au_note:"VALIDAR: texto do resumo e e-mail de contato (passará ao endereço do spec2run.com.br). Os números vêm do perfil do LinkedIn.",
 nav_how:"Como funciona",nav_roles:"Papéis",nav_gains:"Ganhos esperados",nav_theory:"Fundamentos",nav_deep:"Aprofundamento",
 tag:"Versão 1.1 · Entrega orientada por especificação, com agentes de IA",
 h1:"Agentes de IA constroem e revisam. <em>Código determinístico governa.</em> Pessoas decidem.",
@@ -167,7 +177,7 @@ foot:"© Spec2Run AI. Criado por Carlos Yano. Protótipo, conteúdo provisório.
 let L="en",simSel=[0,1,2,3],tam=false;const $=id=>document.getElementById(id);
 const H=(id,h)=>{const e=$(id);if(e)e.innerHTML=h};
 try{const q=new URLSearchParams(location.search).get("lang");if(q==="pt"||q==="en")L=q;else{const v=localStorage.getItem("s2r_lang");if(v==="pt"||v==="en")L=v}}catch(e){}
-const PAGES=[["purpose","nav_goal","tz_purpose"],["how","nav_how","tz_how"],["roles","nav_roles","tz_roles"],["gains","nav_gains","tz_gains"],["foundations","nav_theory","tz_theory"],["deep","nav_deep","tz_deep"],["adopt","nav_adopt","tz_adopt"],["contact","nav_contact","tz_contact"]];
+const PAGES=[["purpose","nav_goal","tz_purpose"],["how","nav_how","tz_how"],["roles","nav_roles","tz_roles"],["gains","nav_gains","tz_gains"],["foundations","nav_theory","tz_theory"],["deep","nav_deep","tz_deep"],["adopt","nav_adopt","tz_adopt"],["author","nav_author","tz_author"]];
 const DEEP=[["deep-lifecycle","d0h","d0p"],["deep-providers","d1h","d1p"],["deep-orchestration","d2h","d2p"],["deep-safeguards","d3h","d3p"],["deep-glossary","d4h",null]];
 const cur=document.body.dataset.page;
 function chrome(){const t=T[L];
@@ -184,11 +194,12 @@ const hmap={3:0,6:1,10:2};
 H("flow",t.lc.map((r,i)=>`<div class="step"><b>${r[0]}</b><span>${r[1]}</span><u>${r[2]}</u>${i in hmap?`<em class="hg">${hg[hmap[i]]}</em>`:""}</div>`).join(""));
 const order=["Specifier","Architect","Test designer","Builder","Reviewer"];
 H("rolecards",t.rt.slice().sort((a,b)=>order.indexOf(a[0])-order.indexOf(b[0])).map(r=>`<div class="card"><h3>${r[0]}</h3><p>${r[1]}</p></div>`).join(""));
-H("explore",PAGES.filter(p=>p[0]!=="contact").map(p=>`<a class="card" href="${p[0]}.html"><h3>${t[p[1]]}</h3><p>${t[p[2]]}</p></a>`).join(""));
+H("explore",PAGES.map(p=>`<a class="card" href="${p[0]}.html"><h3>${t[p[1]]}</h3><p>${t[p[2]]}</p></a>`).join(""));
 H("deepcards",DEEP.map(p=>`<a class="card" href="${p[0]}.html"><h3>${t[p[1]]}</h3>${p[2]?`<p>${t[p[2]]}</p>`:""}</a>`).join(""));
 H("adsteps",t.ad_steps.map((r,i)=>`<div class="step"><b>${r[0]}</b><span>${r[1]}</span></div>`).join(""));
 H("adpre",t.ad_pre.map(x=>`<li>${x}</li>`).join(""));
 const mb=$("admail");if(mb)mb.href="mailto:carlosyano@yahoo.com.br?subject="+encodeURIComponent(t.ad_mail_s)+"&body="+t.ad_mail_b;
+H("auhl",t.au_hl.map(r=>`<div class="card"><h3>${r[0]}</h3><p>${r[1]}</p></div>`).join(""));
 H("lchead",t.lchead.map(x=>`<th>${x}</th>`).join(""));
 H("lcbody",t.lc.map((r,i)=>`<tr><td>${i+1}</td><td><b>${r[0]}</b></td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join(""));
 H("cmdbody",t.cmd.map(r=>`<tr><td><code>/s2r ${r[0]}</code></td><td>${r[1]}</td></tr>`).join(""));
