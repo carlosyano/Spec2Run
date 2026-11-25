@@ -2,6 +2,6 @@
 
 Site do Spec2Run AI: da especificação à produção.
 
-Site estático de uma página (`index.html`), em inglês e português, sem dependências. Para ver localmente, abra o arquivo no navegador.
+Site estático multipágina, em português (padrão) e inglês, sem dependências. Para ver localmente, abra `index.html` no navegador.
 
-Estado: protótipo, conteúdo provisório (trechos marcados "TO VALIDATE" / "VALIDAR").
+Versão do processo: Spec2Run Light 1.4.
